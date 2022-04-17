@@ -1,0 +1,128 @@
+{
+  "text-red": {
+    "prefix": ["!red"],
+    "body": "<span style='color:red'>${TM_SELECTED_TEXT}</span>",
+    "description": "選択部分を赤文字のスタイル適用"
+  },
+  "slide-middle": {
+    "prefix": ["!middle"],
+    "body": [
+      "---",
+      "",
+      "<!-- _class: middle -->",
+      "",
+      "## タイトル",
+      "",
+      "![bg fit](../themes/img/middle_a.png)",
+      "",
+      "---"
+    ],
+    "description": "中表示のスライド"
+  },
+  "slide-init": {
+    "prefix": ["!init", "!top", "!start"],
+    "body": [
+      "---",
+      "title: *** フルコース 第1回",
+      "theme: basic",
+      "author: Basic",
+      "marp: true",
+      "size: '16:9'",
+      "paginate: true",
+      "---",
+      "<!-- _class: titlepage -->",
+      "",
+      "*** フルコース",
+      "",
+      "## 第 1 回",
+      "",
+      "![bg fit](./../themes/img/start.png)",
+      "",
+      "---",
+      "",
+      "## 目次",
+      "",
+      "- hoge",
+      "- fuga",
+      "",
+      "---"
+    ],
+    "description": "スライド情報〜目次"
+  },
+  "slide-end": {
+    "prefix": ["!end"],
+    "body": [
+      "---",
+      "",
+      "<!-- _class: middle -->",
+      "",
+      "## 次回までの課題",
+      "",
+      "![bg fit](../themes/img/middle_c.png)",
+      "",
+      "---",
+      "",
+      "## 次回までの課題",
+      "",
+      "- hoge",
+      "- fuga",
+      "",
+      "---",
+      "",
+      "<!-- _class: middle -->",
+      "",
+      "## 質疑応答",
+      "",
+      "![bg fit](../themes/img/middle_d.png)",
+      "",
+      "---",
+      "<!-- _class: endpage -->",
+      "",
+      "## お わ り",
+      "",
+      "お疲れさまでした",
+      "",
+      "![bg fit](./../themes/img/end.png)",
+      ""
+    ],
+    "description": "課題〜おわりスライド"
+  },
+  "img-width": {
+    "prefix": ["!img"],
+    "body": ["<!-- _class: img-w80 -->"],
+    "description": "画像幅指定クラス（パーセンテージ）"
+  },
+  "codeblock-float": {
+    "prefix": ["!float-codeblock"],
+    "body": ["<!-- _class: pre_float_l -->"],
+    "description": "コードブロックのfloatクラス"
+  },
+  "img-float-right": {
+    "prefix": ["!float-img"],
+    "body": ["<!-- _class: img_float_r -->"],
+    "description": "画像のfloatクラス"
+  },
+  "bubble": {
+    "prefix": ["!bubble"],
+    "body": ["<div class='bubble'>", "", "hogehoge", "", "<div>"],
+    "description": "バブル"
+  },
+  "column-layout": {
+    "prefix": ["!column"],
+    "body": [
+      "<div class='row'>",
+      "  <div class='col-6'>",
+      "",
+      "![](./../themes/img/middle_b.png)",
+      "",
+      "  </div>",
+      "  <div class='col-6'>",
+      "",
+      "![](./../themes/img/middle_d.png)",
+      "",
+      "  </div>",
+      "</div>"
+    ],
+    "description": "2カラムレイアウト"
+  }
+}

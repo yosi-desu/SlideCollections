@@ -1,0 +1,14 @@
+{
+  "markdown.marp.enableHtml": true,
+  "markdown.marp.themes": ["./themes/basic.css"],
+  "japanese-proofreading.textlint.丸かっこ（）": false,
+  "japanese-proofreading.textlint.全角文字と半角文字の間": false,
+
+
+  "[markdown]": {
+    "editor.quickSuggestions": true,
+    "editor.snippetSuggestions": "top",
+    "editor.suggest.showKeywords": false,
+    "editor.suggest.showWords": false
+  }
+}
